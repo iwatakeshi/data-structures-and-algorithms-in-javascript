@@ -100,6 +100,7 @@ var JSArray = (function () {
     /**
      * Removes all specified items from the array.
      * @param {Number} key The key to find the item
+     * @return {Boolean} The truth value
      */
   }, {
     key: 'remove',
