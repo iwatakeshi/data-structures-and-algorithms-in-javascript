@@ -12,6 +12,7 @@ The source is written ES6 and can be found under `lib/`.
 * Chapter 2 - Arrays
 	* Un-ordered Arrays
 	* Ordered Arrays
+	* Person Array (from Storing Objects)
 	
 ## Develop
 

@@ -62,7 +62,7 @@ describe('Chapter 2', function(){
 					});
 					
 					/* Test length() */
-					describe('print', function(){
+					describe('length', function(){
 						it('should exist', function(){
 							expect(typeof array.length).toBe('function');
 						});
