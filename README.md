@@ -5,6 +5,8 @@
 This is a refresher of data structures/algorithms 
 and a port from [Data Structures and Algorithms in Java](http://www.informit.com/store/data-structures-and-algorithms-in-java-9780672324536).
 
+The source is written ES6 and can be found under `lib/`.
+
 ## Chapters
 
 * Chapter 2 - Arrays
