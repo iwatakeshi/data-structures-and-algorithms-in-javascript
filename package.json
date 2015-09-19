@@ -1,0 +1,32 @@
+{
+  "name": "dsa-js",
+  "version": "1.0.0",
+  "description": "This is a refresher of data structures and a port from Data Structures and Algorithms in Java",
+  "main": "index.js",
+  "scripts": {
+    "test": "gulp test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/iwatakeshi/data-structures-and-algorithms-in-javascript.git"
+  },
+  "author": "iwatakeshi",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/iwatakeshi/data-structures-and-algorithms-in-javascript/issues"
+  },
+  "homepage": "https://github.com/iwatakeshi/data-structures-and-algorithms-in-javascript#readme",
+  "devDependencies": {
+    "app-root-path": "^1.0.0",
+    "gulp": "^3.9.0",
+    "gulp-babel": "^5.2.1",
+    "gulp-jasmine": "^2.1.0",
+    "gulp-jsbeautify": "^0.1.1",
+    "gulp-jshint": "^1.11.2",
+    "gulp-sourcemaps": "^1.5.2",
+    "jshint-stylish": "^2.0.1"
+  },
+  "dependencies": {
+    "source-map-support": "^0.3.2"
+  }
+}
