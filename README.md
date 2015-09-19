@@ -1,6 +1,9 @@
 # Data Structures and Algorithms in Javascript
+
+[![Build Status](https://travis-ci.org/iwatakeshi/data-structures-and-algorithms-in-javascript.svg)](https://travis-ci.org/iwatakeshi/data-structures-and-algorithms-in-javascript)
+
 This is a refresher of data structures/algorithms 
-and a port from Data Structures and Algorithms in Java
+and a port from "Data Structures and Algorithms in Java"
 
 ## Chapters
 
