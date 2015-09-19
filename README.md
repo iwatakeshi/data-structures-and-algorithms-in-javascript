@@ -9,6 +9,7 @@ and a port from "Data Structures and Algorithms in Java"
 
 * Chapter 2 - Arrays
 	* Un-ordered Arrays
+	* Ordered Arrays
 	
 ## Develop
 

@@ -5,9 +5,9 @@ var root = require('app-root-path').path;
 describe('Chapter 2', function(){
 	/* Array */
 	describe('Array', function(){
-		/* Un-ordered */
-			describe('Un-ordered', function(){
-				var JSArray = require(Path.join(root,'/dist/Chapter 2/Array/un-ordered/index'));
+		/* Ordered */
+			describe('Ordered', function(){
+				var JSArray = require(Path.join(root,'/dist/Chapter 2/Array/ordered/index'));
 				it('should export', function(){
 					expect(typeof JSArray).toBe('function');
 				});
@@ -22,8 +22,8 @@ describe('Chapter 2', function(){
 						});
 						it('should add an element', function(){
 							array.insert(1);
-							array.insert(2);
 							array.insert(4);
+							array.insert(2);
 							expect(array.stack).toEqual([1, 2, 4]);
 						});
 					});
@@ -34,10 +34,10 @@ describe('Chapter 2', function(){
 							expect(typeof array.find).toBe('function');
 						});
 						it('should find elements', function(){
-							expect(array.find(1)).toBe(true);
-							expect(array.find(2)).toBe(true);
-							expect(array.find(4)).toBe(true);
-							expect(array.find(5)).toBe(false);
+							expect(array.find(1)).toBe(0);
+							expect(array.find(2)).toBe(1);
+							expect(array.find(4)).toBe(2);
+							expect(array.find(5)).toBe(-1);
 						});
 					});
 					
