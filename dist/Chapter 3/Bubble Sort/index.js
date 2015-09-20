@@ -43,7 +43,6 @@ var BubbleSort = (function (_Unordered) {
       for (outer = this.stack.length - 1; outer > 1; outer--) {
         // Inner loop (forward)
         for (inner = 0; inner < outer; inner++) {
-          console.log(this.stack[inner], this.stack[inner + 1], this.stack[inner] > this.stack[inner + 1]);
           if (this.stack[inner] > this.stack[inner + 1]) this.swap(inner, inner + 1);
         }
       }
@@ -59,9 +58,7 @@ var BubbleSort = (function (_Unordered) {
     key: 'swap',
     value: function swap(first, second) {
       var temp = this.stack[first];
-      console.log('temp:', temp, 'first-before:', this.stack[first]);
       this.stack[first] = this.stack[second];
-      console.log('temp:', temp, 'first-after:', this.stack[first]);
       this.stack[second] = temp;
     }
   }]);
