@@ -13,6 +13,8 @@ The source is written ES6 and can be found under `lib/`.
 	* Un-ordered Arrays
 	* Ordered Arrays
 	* Person Array (from Storing Objects)
+* Chapter 3 - Sorting
+	* Bubble Sort
 	
 ## Develop
 
