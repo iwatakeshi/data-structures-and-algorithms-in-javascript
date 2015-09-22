@@ -15,6 +15,7 @@ The source is written ES6 and can be found under `lib/`.
 	* Person Array (from Storing Objects)
 * Chapter 3 - Sorting
 	* Bubble Sort
+	* Selection Sort
 	
 ## Develop
 

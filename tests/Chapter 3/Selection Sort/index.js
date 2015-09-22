@@ -3,16 +3,16 @@ var Path = require('path');
 var root = require('app-root-path').path;
 /* Chapter 2 */
 describe('Chapter 3', function () {
-		/* Bubble Sort */
-	describe('Bubble Sort', function () {
-		var BubbleSort = require(Path.join(root, '/dist/Chapter 3/Bubble Sort/index'));
-		it('should export', function () {
-			expect(typeof BubbleSort).toBe('function');
-		});
+		/* Selection Sort */
+	describe('Selection Sort', function () {
+				var SelectionSort = require(Path.join(root, '/dist/Chapter 3/Selection Sort/index'));
+				it('should export', function () {
+					expect(typeof SelectionSort).toBe('function');
+				});
 				
-		/* Test methods */
-		describe('methods', function () {
-			var array = new BubbleSort();
+				/* Test methods */
+			describe('methods', function () {
+			var array = new SelectionSort();
 			/* Test insert() */
 			describe('insert', function () {
 				it('should exist', function () {
@@ -32,7 +32,7 @@ describe('Chapter 3', function () {
 					expect(typeof array.swap).toBe('function');
 				});
 			});
-			
+					
 			/* Test sort() */
 			describe('sort', function () {
 				it('should exist', function () {
@@ -43,7 +43,7 @@ describe('Chapter 3', function () {
 					expect(array.stack).toEqual([1, 2, 4]);
 				});
 			});
-			
+					
 			/* Test find() */
 			describe('find', function () {
 				it('should exist', function () {
@@ -56,7 +56,7 @@ describe('Chapter 3', function () {
 					expect(array.find(5)).toBe(false);
 				});
 			});
-			
+					
 			/* Test remove() */
 			describe('remove', function () {
 				it('should exist', function () {
@@ -69,14 +69,14 @@ describe('Chapter 3', function () {
 					expect(array.stack).toEqual([2]);
 				});
 			});
-			
+					
 			/* Test print() */
 			describe('print', function () {
 				it('should exist', function () {
 					expect(typeof array.print).toBe('function');
 				});
 			});
-			
+					
 			/* Test length() */
 			describe('length', function () {
 				it('should exist', function () {
@@ -84,6 +84,6 @@ describe('Chapter 3', function () {
 				});
 			});
 
-		});
+				});
 	});
 });
