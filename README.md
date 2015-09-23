@@ -16,6 +16,7 @@ The source is written ES6 and can be found under `lib/`.
 * Chapter 3 - Sorting
 	* Bubble Sort
 	* Selection Sort
+	* Insertion Sort
 	
 ## Develop
 
