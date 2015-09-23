@@ -1,9 +1,9 @@
 /* global describe, it, expect */
 var Path = require('path');
 var root = require('app-root-path').path;
-/* Chapter 2 */
+/* Chapter 3 */
 describe('Chapter 3', function () {
-		/* Selection Sort */
+		/* Insertion Sort */
 	describe('Insertion Sort', function () {
 				var InsertionSort = require(Path.join(root, '/dist/Chapter 3/Insertion Sort/index'));
 				it('should export', function () {
