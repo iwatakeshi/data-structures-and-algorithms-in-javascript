@@ -20,38 +20,41 @@ var _Chapter2ArrayUnOrdered = require('../../Chapter 2/Array/un-ordered/');
 
 var _Chapter2ArrayUnOrdered2 = _interopRequireDefault(_Chapter2ArrayUnOrdered);
 
-var SelectionSort = (function (_Unordered) {
-  _inherits(SelectionSort, _Unordered);
+var InsertionSort = (function (_Unordered) {
+  _inherits(InsertionSort, _Unordered);
 
-  function SelectionSort() {
+  function InsertionSort() {
     var array = arguments.length <= 0 || arguments[0] === undefined ? [] : arguments[0];
 
-    _classCallCheck(this, SelectionSort);
+    _classCallCheck(this, InsertionSort);
 
-    _get(Object.getPrototypeOf(SelectionSort.prototype), 'constructor', this).call(this, array);
+    _get(Object.getPrototypeOf(InsertionSort.prototype), 'constructor', this).call(this, array);
   }
 
   /**
    * Sorts the elements in the array from low to high
    */
 
-  _createClass(SelectionSort, [{
+  _createClass(InsertionSort, [{
     key: 'sort',
     value: function sort() {
-      var inner, outer, minimum;
-      // Outer loop (forward until the one before the last index)
-      for (outer = 0; outer < this.stack.length - 1; outer++) {
-        // Keep track of the minimum
-        minimum = outer;
-        // Inner loop (forward ahead of the outer by 1 index)
-        for (inner = outer + 1; inner < this.stack.length; inner++) {
-          // Check for the a new minimum
-          if (this.stack[inner] < this.stack[minimum]) minimum = inner;
+      var inner, outer;
+
+      // Outer is the dividing line
+      for (outer = 1; outer < this.stack.length; outer++) {
+        // Remove the marked item
+        var temp = this.stack[outer];
+        inner = outer;
+        // Begin shifting from the 'outer' until
+        // one is smaller
+        while (inner > 0 && this.stack[inner - 1] >= temp) {
+          // Shift items to the right
+          this.stack[inner] = this.stack[inner - 1];
+          // Move index to the left
+          inner--;
         }
-        // Swap them once the inner loop has
-        // decided which of the items is the
-        // minimum	
-        this.swap(outer, minimum);
+        // Insert marked position
+        this.stack[inner] = temp;
       }
     }
 
@@ -70,9 +73,9 @@ var SelectionSort = (function (_Unordered) {
     }
   }]);
 
-  return SelectionSort;
+  return InsertionSort;
 })(_Chapter2ArrayUnOrdered2['default']);
 
-exports['default'] = SelectionSort;
+exports['default'] = InsertionSort;
 module.exports = exports['default'];
-//# sourceMappingURL=../../source maps/Chapter 3/Selection Sort/index.js.map
+//# sourceMappingURL=../../source maps/Chapter 3/Insertion Sort/index.js.map
