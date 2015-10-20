@@ -5,13 +5,13 @@ var root = require('app-root-path').path;
 describe('Chapter 3', function () {
 		/* Insertion Sort */
 	describe('Insertion Sort', function () {
-				var InsertionSort = require(Path.join(root, '/dist/Chapter 3/Insertion Sort/index'));
-				it('should export', function () {
-					expect(typeof InsertionSort).toBe('function');
-				});
+		var InsertionSort = require(Path.join(root, '/dist/Chapter 3/Insertion Sort/index'));
+		it('should export', function () {
+			expect(typeof InsertionSort).toBe('function');
+		});
 				
 				/* Test methods */
-			describe('methods', function () {
+		describe('methods', function () {
 			var array = new InsertionSort();
 			/* Test insert() */
 			describe('insert', function () {
@@ -83,7 +83,6 @@ describe('Chapter 3', function () {
 					expect(typeof array.length).toBe('function');
 				});
 			});
-
-				});
+		});
 	});
 });

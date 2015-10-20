@@ -17,6 +17,8 @@ The source is written ES6 and can be found under `lib/`.
 	* Bubble Sort
 	* Selection Sort
 	* Insertion Sort
+* Chapter 4 - Stack, Queues, Priority Queues
+	* Stack (with examples)
 	
 ## Develop
 

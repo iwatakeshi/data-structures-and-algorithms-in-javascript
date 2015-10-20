@@ -28,6 +28,7 @@
     "lodash": "^3.10.1"
   },
   "dependencies": {
+    "io": "0.0.9",
     "source-map-support": "^0.3.2"
   }
 }

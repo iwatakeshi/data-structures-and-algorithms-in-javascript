@@ -83,7 +83,6 @@ describe('Chapter 3', function () {
 					expect(typeof array.length).toBe('function');
 				});
 			});
-
 		});
 	});
 });
