@@ -27,8 +27,9 @@ var Stack = (function () {
   }, {
     key: "pop",
     value: function pop() {
+      var temp = this.stack[this.top--];
       this.stack.length--;
-      return this.stack[this.top--];
+      return temp;
     }
   }, {
     key: "peek",
