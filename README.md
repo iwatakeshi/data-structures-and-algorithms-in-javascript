@@ -20,6 +20,7 @@ The source is written ES6 and can be found under `lib/`.
 * Chapter 4 - Stack, Queues, Priority Queues
 	* Stack (with examples)
 	* Queue
+	* Priortiy Queues
 * Chapter 5 - Linked List
 	* Linked List
 * Chapter 6 - Recursion
