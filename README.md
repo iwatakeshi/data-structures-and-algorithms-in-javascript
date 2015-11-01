@@ -26,6 +26,8 @@ The source is written ES6 and can be found under `lib/`.
 * Chapter 6 - Recursion
 	* Examples (Factorial, Tower of Hanoi, Binary Search, etc)
 	* Merge Sort
+* Chapter 7 - Advanced Sorting
+	* Shell Sort
 
 ## Develop
 

@@ -1,8 +1,8 @@
 /* global describe, it, expect */
 var Path = require('path');
 var root = require('app-root-path').path;
-/* Chapter 3 */
-describe('Chapter 3', function () {
+/* Chapter 6 */
+describe('Chapter 6', function () {
 		/* Merge Sort */
 	describe('Merge Sort', function () {
 		var MergeSort = require(Path.join(root, '/dist/Chapter 6/Merge Sort/index'));
