@@ -22,6 +22,9 @@ The source is written ES6 and can be found under `lib/`.
 	* Queue
 * Chapter 5 - Linked List
 	* Linked List
+* Chapter 6 - Recursion
+	* Examples (Factorial, Tower of Hanoi, Binary Search, etc)
+	* Merge Sort
 
 ## Develop
 
