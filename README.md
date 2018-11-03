@@ -1,6 +1,6 @@
 # Data Structures and Algorithms in Javascript
 
-[![Build Status](https://travis-ci.org/iwatakeshi/data-structures-and-algorithms-in-javascript.svg)](https://travis-ci.org/iwatakeshi/data-structures-and-algorithms-in-javascript)
+[![Build Status](https://travis-ci.org/iwatakeshi/data-structures-and-algorithms-in-javascript.svg)](https://travis-ci.org/iwatakeshi/data-structures-and-algorithms-in-javascript) [![Greenkeeper badge](https://badges.greenkeeper.io/iwatakeshi/data-structures-and-algorithms-in-javascript.svg)](https://greenkeeper.io/)
 
 This is a refresher of data structures/algorithms 
 and a port from [Data Structures and Algorithms in Java](http://www.informit.com/store/data-structures-and-algorithms-in-java-9780672324536).
